@@ -121,30 +121,51 @@ p{
 .button a{
   font-family: "Georgia", Times, serif;
 }
-
-body2{
-  top: 550px;
+.button2 {
+  background-color: #e7b9eb;
+  border: 2px solid black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.button2 {
+  transition-duration: 0.5s;
+}
+.button2: hover {
+  background-color: #d3f2aa;
+}
+.button2 a {
+  text-align: center;
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
+  margin: auto;
+}
+.button2 a{
+  font-family: "Georgia", Times, serif;
 }
 .imgja {
   float: left;
   margin: 5px;
 }
-.rating-css div{
+.rating-CSS div{
   color: #ffe400;
   font-size: 30px;
 }
-.rating-css input {
+.rating-CSS input {
   display: none;
 }
-.rating-css input + label{
+.rating-CSS input + label{
   font-size: 30px;
   text-shadow: 1px 1px 0 #ffe400;
   cursor: pointer;
 }
-.rating-css input:checked + label ~ label{
+.rating-CSS input:checked + label ~ label{
   color: black;
 }
-rating-css label: active {
+rating-CSS label: active {
   transform: scale(0.8);
   transition: 0.3s ease;
 }

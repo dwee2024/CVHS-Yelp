@@ -133,7 +133,7 @@ p{
 .button2 {
   transition-duration: 0.5s;
 }
-.button2: hover {
+.button2:hover {
   background-color: #d3f2aa;
 }
 .button2 a {

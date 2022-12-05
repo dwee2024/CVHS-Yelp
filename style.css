@@ -134,7 +134,7 @@ p{
   transition-duration: 0.5s;
 }
 .button2:hover {
-  background-color: #d3f2aa;
+  background: #d3f2aa;
 }
 .button2 a {
   text-align: center;

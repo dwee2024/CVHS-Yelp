@@ -150,22 +150,22 @@ p{
   float: left;
   margin: 5px;
 }
-.rating-CSS div{
-  color: #ffe400;
+.rating-css div{
+  color: black;
   font-size: 30px;
 }
-.rating-CSS input {
+.rating-css input {
   display: none;
 }
-.rating-CSS input + label{
+.rating-css input + label{
   font-size: 30px;
-  text-shadow: 1px 1px 0 #ffe400;
+  text-shadow: 1px 1px #ffe400;
   cursor: pointer;
 }
-.rating-CSS input:checked + label ~ label{
-  color: black;
+.rating-css input:checked + label ~ label{
+  color: #ffe400;
 }
-rating-CSS label: active {
+rating-css label: active {
   transform: scale(0.8);
   transition: 0.3s ease;
 }
